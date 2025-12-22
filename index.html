@@ -417,8 +417,8 @@
     <div class="music-control" id="musicBtn">
         <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z'/%3E%3C/svg%3E" alt="播放/暂停">
     </div>
-    <audio id="bgMusic" loop>
-        <!-- 替换为元旦喜庆的背景音乐链接（推荐用mp3格式） -->
+    <audio id="bgMusic" loop preload="auto">
+        <!-- 注意：文件名大小写必须与实际文件完全一致 -->
         <source src="./Free.mp3" type="audio/mpeg">
         您的浏览器不支持音频播放
     </audio>
@@ -660,3 +660,4 @@
 </body>
 
 </html>
+
